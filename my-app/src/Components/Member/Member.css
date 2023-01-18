@@ -22,7 +22,7 @@ color: #FFFFFF;
 
 
 
-@media (min-width: 400px) { 
+@media (min-width: 200px) { 
 
     .mem-par{
         font: normal normal normal  Roboto;
@@ -43,6 +43,7 @@ color: #FFFFFF;
         background-size: contain;
         background-repeat: no-repeat;
         padding: 7%;
+        width: 110%;
         
     }
 
@@ -75,6 +76,7 @@ color: #FFFFFF;
         background-size: contain;
         background-repeat: no-repeat;
         padding:7%;
+        height: 55vh;
     }
 
  }
@@ -120,6 +122,7 @@ color: #FFFFFF;
         background-repeat: no-repeat;
         
         padding: 7%;
+        height: 96vh;
     }
     .mem-par{
         font: normal normal normal 14px Roboto;
