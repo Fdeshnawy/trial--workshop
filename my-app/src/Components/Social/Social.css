@@ -4,7 +4,7 @@
   
   .social--head,
   .social--text {
-  margin:  5%  0!important;
+  margin:  6%  0!important;
 }
 .textsection-social{
   display: flex;
@@ -30,3 +30,82 @@
   margin: 0% 5% !important;
 }
 
+@media (max-width: 766px) {
+  .social--img {
+    width: 100%;
+  }
+
+  .social--text{
+    width: 300px;
+    font: normal normal normal 14px Roboto;
+
+}
+.social--small{
+  color: #E4007E;
+  font: normal normal medium 12px Roboto;
+}
+.social--head{
+  font: normal normal bold 20px Roboto;
+}
+ }
+
+@media (min-width: 768px) { 
+  
+  .social--text{
+    width: 300px;
+    font: normal normal normal 14px Roboto;
+
+}
+.social--small{
+  color: #E4007E;
+  font: normal normal medium 12px Roboto;
+}
+.social--head{
+  font: normal normal bold 25px Roboto;
+}
+
+
+.social--img {
+  width: 87%;
+}
+
+
+
+ }
+
+
+
+@media (min-width: 992px) { 
+  
+  .social--text{
+    width: 400px;
+    font: normal normal normal 16px Roboto;
+
+}
+.social--small{
+  color: #E4007E;
+  font: normal normal medium 14px Roboto;
+}
+.social--head{
+  font: normal normal bold 30px Roboto;
+}
+
+ }
+
+
+@media (min-width: 1400px) { 
+
+
+  .social--text{
+    width: 490px;
+    font: normal normal normal 20px Roboto;
+
+}
+.social--small{
+  color: #E4007E;
+  font: normal normal medium 16px/21px Roboto;
+}
+.social--head{
+  font: normal normal bold 56px Roboto;
+}
+ }

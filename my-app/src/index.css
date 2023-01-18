@@ -19,45 +19,33 @@ body {
 .mode--theme{
   position: fixed;
   right: 0;
-  top: 50%;
+  top: 49.6%;
+  background-color: black;
+  color: white;
 }
 
-/* 
-.font-up{
-  position: fixed;
-  right: 0;
-  top: 20%;
-  z-index: 100;
-  border: none !important;
-}
-
-
-.font-down{
-  position: fixed;
-  right: 0;
-  top: 40%;
-  z-index: 100;
-  border: none !important;
-} */
 
 .font-size-up{
   position: fixed !important;
-  right: 0px !important;
-  top: 60% !important;
+  right: -4px !important;
+  top: 55% !important;
   z-index: 100 !important;
   border: 0 !important;
-  font-size: 21px !important;
+ 
   border: 1px solid;
+  background-color: black;
+ 
   
 
 }
 .font-size-down{
   position: fixed !important;
   right: 0px !important;
-  top: 65% !important;
+  top: 61.5% !important;
   z-index: 100 !important;
   border: 0 !important;
-  font-size: 21px !important;
+ 
+  background-color: black;
 
 }
 
@@ -66,3 +54,8 @@ body {
   height: 0 !important;
   display: block !important;
 }
+.adjust{
+  font-size: 24px!important;
+}
+
+

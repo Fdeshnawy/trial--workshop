@@ -13,9 +13,7 @@ color: #E4007E;
 .stories--section {
     margin: 6%;
   }
-.stories--img{
-   width: 40%;
-}
+
 .card{
     margin:  1% !important;
     border: none !important;
@@ -47,4 +45,149 @@ color: #464646 !important;
     font: normal normal normal 18px/24px Roboto;
 letter-spacing: 0px;
 color: #646464 !important;
+}
+
+
+.zoom-img{
+    width: 361px !important;
+    height:auto;
+    overflow: hidden;
+}
+
+.zoom-img .stories--img{
+    width: 100%;
+    transition: all .3s ease-in-out;
+
+
+}
+
+.zoom-img .stories--img:hover{
+    transform: scale(1.2); 
+
+}
+@media (min-width: 400px) { 
+
+      
+.card--titlee{
+    font: normal normal normal 12px Roboto !important;
+letter-spacing: 0px;
+color: #464646;
+}
+
+.card--main{
+    font: normal normal bold 14px Roboto ;
+    color: black;
+}
+.foot-card{
+    font: normal normal medium  Roboto !important;
+    font-size: 12px !important;
+letter-spacing: 0px;
+color: #464646 !important;
+}
+.foot-cal{
+    font: normal normal normal 12px Roboto !important;
+letter-spacing: 0px;
+color: #646464 !important;
+}
+.stories--txt{
+    font: normal normal bold 28px Roboto;
+    margin-bottom: 6%;
+    
+}
+
+}
+
+@media (min-width: 768px) {  
+      
+.card--titlee{
+    font: normal normal normal 14px Roboto  !important;
+letter-spacing: 0px;
+color: #464646;
+}
+
+.card--main{
+    font: normal normal bold 16px Roboto ;
+    color: black;
+}
+.foot-card{
+    font: normal normal medium 10px Roboto;
+letter-spacing: 0px;
+color: #464646 !important;
+}
+.foot-cal{
+    font: normal normal normal 12px Roboto;
+letter-spacing: 0px;
+color: #646464 !important;
+}
+.stories--txt{
+    font: normal normal bold 34px/84px Roboto;
+    margin-bottom: 6%;
+    
+}
+.zoom-img {
+    width: 210px !important;
+}
+
+}
+
+@media (min-width: 992px) { 
+
+    
+.card--titlee{
+    font: normal normal normal 16px Roboto  !important;
+letter-spacing: 0px;
+color: #464646;
+}
+
+.card--main{
+    font: normal normal bold 20px Roboto ;
+    color: black;
+}
+.foot-card{
+    font: normal normal medium 12px Roboto;
+letter-spacing: 0px;
+color: #464646 !important;
+}
+.foot-cal{
+    font: normal normal normal 14px Roboto;
+letter-spacing: 0px;
+color: #646464 !important;
+}
+.stories--txt{
+    font: normal normal bold 44px/84px Roboto;
+    margin-bottom: 6%;
+    
+}
+.zoom-img {
+    width: 368px !important;
+}
+ }
+
+@media (min-width: 1400px) { 
+    .stories--txt{
+        font: normal normal bold 64px Roboto;
+        margin-bottom: 6%;
+        
+    }
+.card--titlee{
+    font: normal normal normal 18px Roboto ;
+letter-spacing: 0px;
+color: #464646;
+}
+
+.card--main{
+    font: normal normal bold 30px Roboto ;
+    color: black;
+}
+.foot-card{
+    font: normal normal medium 16px Roboto;
+letter-spacing: 0px;
+color: #464646 !important;
+}
+.foot-cal{
+    font: normal normal normal 18px/24px Roboto;
+letter-spacing: 0px;
+color: #646464 !important;
+}
+
 }

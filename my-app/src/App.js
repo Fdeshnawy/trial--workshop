@@ -1,15 +1,4 @@
-// import Header from "./Components/Header";
 
-// function App() {
-//   return (
-//     <div>
-//       <Header />
-//       <h2>Let's get started!</h2>
-//     </div>
-//   );
-// }
-
-// export default App;
 
 import * as React from "react";
 import { lightTheme, darkTheme, GlobalStyles } from "./Components/UI/Theme";
@@ -17,7 +6,7 @@ import { ThemeProvider } from "styled-components";
 import Header from "./Components/Header/Header";
 import Banner from "./Components/Banner/Banner";
 import Social from "./Components/Social/Social";
-import { FaRegSun } from "react-icons/fa";
+import { FaAdjust } from "react-icons/fa";
 import whiteLogo from "./assets/logowhite.png";
 import logo from "./assets/logo.png";
 import Fonts from "./Components/UI/Fonts";
@@ -26,6 +15,7 @@ import Member from "./Components/Member/Member";
 import Events from "./Components/Events/Events";
 import Media from "./Components/Media/Media";
 import News from "./Components/News/New";
+import Footer from "./Components/Footer/Footer";
 
 export default class App extends React.Component {
   state = {
@@ -70,6 +60,7 @@ export default class App extends React.Component {
           <Fonts/>
           <div id="target">
             {isDarkTheme ? <Header src={whiteLogo} /> : <Header src={logo} />}
+  
             <Banner />
             <Social />
             <Stories/>
@@ -77,14 +68,16 @@ export default class App extends React.Component {
             <Events/>
             <Media/>
             <News/>
+            <Footer/>
+
             <button onClick={this.toggleTheme} className="mode--theme">
               {isDarkTheme ? (
-                <span aria-label="Light mode" role="img">
-                  <FaRegSun />
+                <span aria-label="Light mode" role="img" >
+                  <FaAdjust className="adjust"   />
                 </span>
               ) : (
-                <span aria-label="Dark mode" role="img">
-                  <FaRegSun />
+                <span aria-label="Dark mode" role="img"  >
+                  <FaAdjust  className="adjust" />
                 </span>
               )}
             </button>

@@ -11,6 +11,11 @@ function Fonts(){
               stepSize: 1,
               range: 3,
             }}   
+            customButtons={{
+              up: <span  style={{'fontSize': '16px'}}>A+</span>,
+              down: <span style={{'fontSize': '16px'}}>A-</span>,
+             
+            }} 
           />
 
   )

@@ -7,6 +7,7 @@ color: #000000;
     font: normal normal medium 30px Roboto;
 letter-spacing: 0px;
 color: #000000;
+margin: 12px !important;
 }
 
 .events-img{
@@ -16,3 +17,120 @@ color: #000000;
 .events--small{
     color: #E4007E;
 }
+
+
+
+.zoom-img{
+    width: 300px;
+    height:auto;
+    overflow: hidden;
+}
+
+.zoom-img .eve-img-re{
+    width: 60%;
+    transition: all .3s ease-in-out;
+
+
+}
+
+.zoom-img .eve-img-re:hover{
+    transform: scale(1.2); 
+
+}
+
+@media (min-width: 400px) { 
+    .events-cal{
+        font: normal normal normal 12px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    }
+    .events-txt{
+        font: normal normal medium Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: 12px !important;
+    margin: 12px !important;
+
+    }
+    
+    .events-img{
+        width: 625px;
+        height: 353px;
+    }
+    .events--small{
+        color: #E4007E;
+    }
+    
+
+}
+
+@media (min-width: 768px) { 
+    .events-cal{
+        font: normal normal normal 12px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    }
+    .events-txt{
+        font: normal normal medium 14px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    }
+    
+    .events-img{
+        width: 625px;
+        height: 353px;
+    }
+    .events--small{
+        color: #E4007E;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .events-cal{
+        font: normal normal normal 14px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    }
+    .events-txt{
+        font: normal normal medium 18px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: 18px !important;
+    margin: 12px !important;
+    }
+    
+    .events-img{
+        width: 625px;
+        height: 353px;
+    }
+    .events--small{
+        color: #E4007E;
+    }
+
+
+    
+
+  }
+
+@media (min-width: 1400px) {
+    .events-cal{
+        font: normal normal normal 24px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    }
+    .events-txt{
+        font: normal normal medium 30px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    }
+    
+    .events-img{
+        width: 625px;
+        height: 353px;
+    }
+    .events--small{
+        color: #E4007E;
+    }
+    
+  }

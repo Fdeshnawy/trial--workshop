@@ -23,8 +23,11 @@ function Stories() {
 
       <Divider className=""></Divider>
       <CardGroup>
-        <Card>
-          <Card.Img className="stories--img" variant="top" src={storyOne} />
+        <Card >
+        <div className="zoom-img">
+        <Card.Img className="stories--img" variant="top" src={storyOne} />
+
+        </div>
 
           <Card.Footer>
             <Card.Title className="card--titlee d-flex align-items-center">
@@ -45,8 +48,10 @@ function Stories() {
             </div>
           </Card.Footer>
         </Card>
-        <Card>
+        <Card  md={12}>
+        <div className="zoom-img">
           <Card.Img className="stories--img" variant="top" src={storyTwo} />
+          </div>
           <Card.Footer>
             <Card.Title className="card--titlee d-flex align-items-center">
               Payment, Wealth management, ..
@@ -66,8 +71,10 @@ function Stories() {
             </div>
           </Card.Footer>
         </Card>
-        <Card>
+        <Card  md={12}>
+        <div className="zoom-img">
           <Card.Img className="stories--img" variant="top" src={storyThree} />
+          </div>
           <Card.Footer>
             <Card.Title className="card--titlee d-flex align-items-center">
               Payment, Wealth management, ..

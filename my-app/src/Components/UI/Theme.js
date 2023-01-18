@@ -40,6 +40,22 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.body};
     transition: background 0.2s ease-in, color 0.2s ease-in;
   }
+  .font-size-up,
+  .font-size-down{
+    
+    color: ${({ theme }) => theme.font};
+    transition: background 0.2s ease-in, color 0.2s ease-in;
+  }
+
+  .navbar-toggler{
+    background: ${({ theme }) => theme.navtog};
+  }
+  footer{
+    background: ${({ theme }) => theme.media};
+    color: ${({ theme }) => theme.body};
+    transition: background 0.2s ease-in, color 0.2s ease-in;
+ 
+  }
 `;
 
 export const lightTheme = {
@@ -50,8 +66,9 @@ export const lightTheme = {
   box:'background:linear-gradient(130deg,#fff, #fff, #fff, #fff, #fff, #fff, #fff, #fff)',
   button:'#000',
   media:' #000',
+  font:'#fff',
+  navtog:'#fff'
 
-  
 
 };
 
@@ -63,5 +80,7 @@ export const darkTheme = {
   box:'background:linear-gradient(130deg,#000, #000, #000, #000, #000, #000, #000, #000)',
   button:'#fff',
   media:' #fff',
+  font:'#fff'
+
 
 };

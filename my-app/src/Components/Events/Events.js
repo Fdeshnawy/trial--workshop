@@ -9,7 +9,7 @@ import './Events.css';
 function Events() {
 
   return (
-    <div>
+    <div className="m-5">
      <Container fluid>
      <Row>
         <Col sm={5}>
@@ -20,12 +20,14 @@ function Events() {
 
           </div>
         </Col>
-        <Col sm={7}>
+        <Col sm={6}>
         <CardGroup>
      
       <Card>
-        <Card.Img className="" variant="top" src={eventimgone} />
-        <Card.Body>
+      <div className="zoom-img">
+    <Card.Img className="eve-img-re" variant="top" src={eventimgone} />
+
+    </div>        <Card.Body>
          
           <small className="events-cal"> <img alt="" src={calen} /><span>September 13, 2019 - August 2, 2021</span></small>
           <Card.Text className="events-txt">
@@ -36,8 +38,11 @@ function Events() {
       </Card>
       
       <Card>
-        <Card.Img className="" variant="top" src={eventimgone} />
-        <Card.Body>
+    <div className="zoom-img">
+    <Card.Img className="eve-img-re" variant="top" src={eventimgone} />
+
+    </div>
+          <Card.Body>
          
           <small className="events-cal"> <img alt="" src={calen} /><span>September 13, 2019 - August 2, 2021</span></small>
           <Card.Text className="events-txt">
