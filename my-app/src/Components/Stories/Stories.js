@@ -24,7 +24,7 @@ function Stories() {
       <Divider className=""></Divider>
       <CardGroup>
         <Card >
-        <div className="zoom-img">
+        <div className="">
         <Card.Img className="stories--img" variant="top" src={storyOne} />
 
         </div>
@@ -49,7 +49,7 @@ function Stories() {
           </Card.Footer>
         </Card>
         <Card  md={12}>
-        <div className="zoom-img">
+        <div className="">
           <Card.Img className="stories--img" variant="top" src={storyTwo} />
           </div>
           <Card.Footer>
@@ -72,7 +72,7 @@ function Stories() {
           </Card.Footer>
         </Card>
         <Card  md={12}>
-        <div className="zoom-img">
+        <div className="">
           <Card.Img className="stories--img" variant="top" src={storyThree} />
           </div>
           <Card.Footer>

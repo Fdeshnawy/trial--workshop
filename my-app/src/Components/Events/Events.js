@@ -24,7 +24,7 @@ function Events() {
         <CardGroup>
      
       <Card>
-      <div className="zoom-img">
+      <div className="">
     <Card.Img className="eve-img-re" variant="top" src={eventimgone} />
 
     </div>        <Card.Body>
@@ -38,7 +38,7 @@ function Events() {
       </Card>
       
       <Card>
-    <div className="zoom-img">
+    <div className="">
     <Card.Img className="eve-img-re" variant="top" src={eventimgone} />
 
     </div>
