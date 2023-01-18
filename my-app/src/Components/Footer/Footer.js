@@ -1,18 +1,26 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import logo from '../../assets/logo.png';
+
 import fb from '../../assets/Facebook Icon.png';
 import twit from '../../assets/Twiiter Icon.png';
 import link from '../../assets/linkedin.png';
 import './Footer.css';
-function Footer() {
+
+function Footer(props) {
+
+  
+
+  
   return (
+    
     <footer className="py-5">
-      <Container>
+      <Container  >
         <Row>
           <Col>
-            <img alt="" src={logo} />
+          
+
+            <img alt="" src={props.src} />
             <p className="">
                 Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
             </p>

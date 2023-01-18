@@ -68,7 +68,9 @@ export default class App extends React.Component {
             <Events/>
             <Media/>
             <News/>
-            <Footer/>
+            {isDarkTheme ? <Footer src={whiteLogo} /> : <Footer src={logo} />}
+
+          
 
             <button onClick={this.toggleTheme} className="mode--theme">
               {isDarkTheme ? (
