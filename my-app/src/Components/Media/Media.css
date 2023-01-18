@@ -30,7 +30,7 @@ height: 28px
     font-size:23px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 200px) {
 
     
     .item-owl-sec{
@@ -46,7 +46,7 @@ height: 28px
     }
     .media-ele{
         position: relative;
-        bottom: -60px;
+        bottom: -40px;
     
     }
     .txtmed{
@@ -159,6 +159,5 @@ height: 28px
        
     }
 
-    .txtmed{
-    }
+   
 }

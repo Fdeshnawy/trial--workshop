@@ -37,7 +37,7 @@ padding:5%;
 }
 
 
-@media (min-width: 400px) { 
+@media (min-width: 200px) { 
     .news-bg{
         background-image: url(../../assets/Mask\ Group\ 20.png);
         background-size: cover;
@@ -75,7 +75,6 @@ padding:5%;
     }
  }
 
-@media (min-width: 768px) {  }
 
 @media (min-width: 992px) {
 
