@@ -1,0 +1,51 @@
+.banner--img {
+  width: 100%;
+}
+
+.box {
+  display: inline-block;
+  width: 92px;
+  aspect-ratio: 1;
+  --m: conic-gradient(from 0deg at left, #0000, #000 0deg, #0000 0deg) left /
+      51% 80px repeat-y,
+    conic-gradient(from -135deg at right, #0000, #000 1deg 89deg, #0000 90deg)
+      right/51% 80px repeat-y;
+  -webkit-mask: var(--m);
+  mask: var(--m);
+  position: absolute;
+  left: -45px !important;
+  height: -webkit-fill-available;
+  z-index: 10;
+}
+.overlay {
+  background: transparent linear-gradient(163deg, #00000000 0%, #205d36 110%) 0%
+    0% no-repeat padding-box;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+.bannerr-right {
+  position: relative;
+}
+
+.banner--head,
+.banner--par {
+  margin: 12% 5% !important;
+}
+
+.button--banner {
+  border: none;
+  padding: 10px;
+  margin: 0% 5% !important;
+}
+.banner--head{
+  font: normal normal bold 90px/90px Roboto;
+}
+.banner--par{
+  font: normal normal 300 28px Roboto;
+}

@@ -1,0 +1,23 @@
+.iimg-mask{
+    background-image: url(../../assets/Mask\ Group\ 29.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 565px;
+    padding: 5%;
+}
+.mem-par{
+    font: normal normal normal 16px Roboto;
+letter-spacing: 1.1px;
+color: #FFFFFF;
+opacity: 0.84;
+}
+.mem-title{
+    font: normal normal bold 30px Roboto;
+letter-spacing: 2.35px;
+color: #FFFFFF;
+}
+.mem-btn{
+    border: none;
+    padding: 10px;
+   
+}

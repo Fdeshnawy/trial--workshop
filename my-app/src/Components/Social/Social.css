@@ -1,0 +1,32 @@
+.social--img {
+    width: 87%;
+  }
+  
+  .social--head,
+  .social--text {
+  margin:  5%  0!important;
+}
+.textsection-social{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.social--text{
+    width: 490px;
+    font: normal normal normal 20px Roboto;
+
+}
+.social--small{
+  color: #E4007E;
+  font: normal normal medium 16px/21px Roboto;
+}
+.social--head{
+  font: normal normal bold 56px Roboto;
+}
+.social-btn{
+  background-color: #5130B5;
+  border: none;
+  padding: 10px;
+  margin: 0% 5% !important;
+}
+

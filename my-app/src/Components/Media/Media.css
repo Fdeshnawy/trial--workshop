@@ -1,0 +1,27 @@
+.media-section{
+    background-color: black;
+    padding: 5% 11%;
+}
+.item-owl-sec{
+    background-image: url('../../assets/Mask\ Group\ 28.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+height: 300px;
+}
+.owl-carousel .owl-item img{
+    width: 37px;
+height: 28px
+}
+.media-ele{
+    position: relative;
+    bottom: -213px;
+
+}
+.owl-dot {
+    border: 1px solid #fff !important;
+    border-radius: 50%;
+    padding: 4px;
+    margin: 3px;
+   
+}

@@ -1,0 +1,18 @@
+.events-cal{
+    font: normal normal normal 24px Roboto;
+letter-spacing: 0px;
+color: #000000;
+}
+.events-txt{
+    font: normal normal medium 30px Roboto;
+letter-spacing: 0px;
+color: #000000;
+}
+
+.events-img{
+    width: 625px;
+    height: 353px;
+}
+.events--small{
+    color: #E4007E;
+}

@@ -1,0 +1,50 @@
+.stories--txt{
+    font: normal normal bold 64px/84px Roboto;
+    margin-bottom: 6%;
+    
+}
+
+.stories--small{
+    font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #E4007E;
+}
+
+.stories--section {
+    margin: 6%;
+  }
+.stories--img{
+   width: 40%;
+}
+.card{
+    margin:  1% !important;
+    border: none !important;
+
+}
+.card--titlee{
+    font: normal normal normal 18px Roboto ;
+letter-spacing: 0px;
+color: #464646;
+}
+.card--titlee::before{
+    content: '';
+   
+    border-top: 2px solid #E4007E;
+  width: 20px;
+  display: block;
+}
+
+.card--main{
+    font: normal normal bold 30px Roboto ;
+    color: black;
+}
+.foot-card{
+    font: normal normal medium 16px Roboto;
+letter-spacing: 0px;
+color: #464646 !important;
+}
+.foot-cal{
+    font: normal normal normal 18px/24px Roboto;
+letter-spacing: 0px;
+color: #646464 !important;
+}

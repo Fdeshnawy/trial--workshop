@@ -1,0 +1,36 @@
+.news-bg{
+    background-image: url(../../assets/Mask\ Group\ 20.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 368px;
+height: 411px;
+}
+.news-bg-two{
+    background-image: url(../../assets/Mask\ Group\ 38.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 368px;
+height: 411px;
+}
+.news-ele{
+    position: relative;
+    bottom: -273px;
+}
+
+.news-txt{
+    font: normal normal bold 32px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+padding:5%;
+
+}
+
+.txt-news{
+    font: normal normal normal 24px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+padding:5%;
+}
+.newsimg{
+    margin: 2% 3%;
+}
