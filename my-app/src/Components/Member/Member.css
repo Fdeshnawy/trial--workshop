@@ -1,8 +1,10 @@
 .iimg-mask{
-    background-image: url(../../assets/Mask\ Group\ 29.png);
-    background-size: contain;
+    background-image: url('../../assets/Mask\ Group\ 29.png');
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 7%;
+    height: 60vh;
+
 }
 .mem-par{
     font: normal normal normal 16px Roboto;
@@ -22,7 +24,8 @@ color: #FFFFFF;
 
 
 
-@media (min-width: 200px) { 
+@media only screen and (max-width:768px) and (min-width:200px) {
+
 
     .mem-par{
         font: normal normal normal  Roboto;
@@ -40,11 +43,10 @@ color: #FFFFFF;
     }
     .iimg-mask{
         background-image: url(../../assets/Mask\ Group\ 29.png);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        padding: 7%;
-        width: 110%;
-        
+        padding: 5%;
+        height: 30vh;
     }
 
     .mem-btn{
@@ -54,94 +56,6 @@ color: #FFFFFF;
        
     }
     
+    
  }
 
-@media (min-width: 768px) { 
-
-    .mem-par{
-        font: normal normal normal 12px Roboto;
-    letter-spacing: 1.1px;
-    color: #FFFFFF;
-    opacity: 0.84;
- 
-    }
-    .mem-title{
-        font: normal normal bold 20px Roboto;
-        color: #FFFFFF;
-  
-    }
-
-    .iimg-mask{
-        background-image: url(../../assets/Mask\ Group\ 29.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding:7%;
-        height: 55vh;
-    }
-
- }
-
-@media (min-width: 992px) { 
-
-    .mem-par{
-        font: normal normal normal 20px Roboto !important;
-    letter-spacing: 1.1px;
-    color: #FFFFFF;
-    opacity: 0.84;
-    margin: 20px 0 !important;
-    }
-    .mem-title{
-        font: normal normal bold 30px Roboto !important;
-    letter-spacing: 1.1px;
-    color: #FFFFFF;
-    margin: 40px 0 !important;
- 
-    }
-
-    .iimg-mask{
-        
-        
-        padding: 7%;
-        margin: 0 !important;
-    }
-
-    .mem-btn{
-        border: none;
-        padding: 10px;
-       font-size: 16px;
-    }
-
-
-
- }
-
-@media (min-width: 1400px) { 
-    .iimg-mask{
-        background-image: url(../../assets/Mask\ Group\ 29.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        
-        padding: 7%;
-        height: 96vh;
-    }
-    .mem-par{
-        font: normal normal normal 14px Roboto;
-    letter-spacing: 1.1px;
-    color: #FFFFFF;
-    opacity: 0.84;
-    margin: 10px 0 !important;
-    }
-    .mem-title{
-        font: normal normal bold 25px Roboto;
-    letter-spacing: 2.35px;
-    color: #FFFFFF;
-    margin: 0 !important;
-    margin: 0;
-    }
-
-    .mem-btn{
-        border: none;
-        padding: 10px;
-       font-size: 16px;
-    }
-}

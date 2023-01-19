@@ -2,7 +2,7 @@
 import * as React from "react";
 import { lightTheme, darkTheme, GlobalStyles } from "../UI/Theme";
 import { ThemeProvider } from "styled-components";
-import { FaRegSun } from "react-icons/fa";
+import { FaAdjust } from "react-icons/fa";
 
 
 export default class Mode extends React.Component {
@@ -43,6 +43,7 @@ export default class Mode extends React.Component {
 
     return (
       <ThemeProvider theme={themeMode}>
+        
         <GlobalStyles />
         <>
           <div id="target">
@@ -50,11 +51,11 @@ export default class Mode extends React.Component {
             <button onClick={this.toggleTheme} className="">
               {isDarkTheme ? (
                 <span aria-label="Light mode" role="img">
-                  <FaRegSun />
+                  <FaAdjust className="adjust"   />
                 </span>
               ) : (
                 <span aria-label="Dark mode" role="img">
-                  <FaRegSun />
+                  <FaAdjust className="adjust"   />
                 </span>
               )}
             </button>

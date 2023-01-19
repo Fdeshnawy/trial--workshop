@@ -11,3 +11,20 @@ height: 44px;
 .nav-link{
     font: normal normal normal 20px Roboto ;
 }
+
+.dropdown-item:hover{
+
+    margin-left: 5px;
+    background-color: transparent !important;
+    color:#5130B5;
+    
+}
+.dropdown-item:hover::before {
+    content: '';
+    border-bottom: 2px solid #5130B5;
+    width: 10px;
+    display: block;
+    position: relative;
+    left: -18px;
+    bottom: -15px;
+}

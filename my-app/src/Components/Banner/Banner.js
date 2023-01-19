@@ -21,7 +21,6 @@ function Banner() {
             <div className="box"></div>
             <div className="overlay"></div>
             <img alt="" width='' className="banner--img" src={banner}/>
-
           </Col>
         </Row>
       </Container>

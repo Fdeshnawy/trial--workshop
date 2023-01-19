@@ -59,6 +59,12 @@
     top: 0;
     margin-top: -197px;
 }
+.button--banner {
+  border: none;
+  padding: 10px;
+  margin: 0% 5% !important;
+}
+
 }
 @media only screen and (max-width: 600px) and (min-width: 400px)  
 {
@@ -67,12 +73,17 @@
     background: #fff;
     transition: background 0.2s ease-in,color 0.2s ease-in;
     transform: rotate(90deg) !important;
-    margin-left: 203px;
+    margin-left: 200px;
     width: 187px;
     height: 152%;
     top: 0;
     margin-top: -260px;
 
+  }
+  .button--banner {
+    border: none;
+    padding: 10px;
+    margin: 4% 5% !important;
   }
 
   }
